@@ -1,8 +1,8 @@
 node ('slave_aws') {
     stage('Clonacion Repositorio') {
         git branch: 'master',
-            credentialsId: 'githubssh',
-            url: 'git@github.com:ContardoRM/DVWA.git'
+            credentialsId: 'denisonl',
+            url: 'git@github.com:denisonl/DVWA.git'
 
         sh "ls -lat"
         
