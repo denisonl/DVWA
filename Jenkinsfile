@@ -1,4 +1,4 @@
-node ('slave_aws') {
+node ('denisonl_aws') {
     stage('Clonacion Repositorio') {
         git branch: 'master',
             credentialsId: 'denisonl',
