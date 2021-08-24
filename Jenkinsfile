@@ -1,7 +1,7 @@
 node ('denisonl_aws') {
     stage('Clonacion Repositorio') {
         git branch: 'master',
-            credentialsId: 'denisonl',
+            credentialsId: 'jenkinsdenisonlprueba',
             url: 'git@github.com:denisonl/DVWA.git'
 
         sh "ls -lat"
